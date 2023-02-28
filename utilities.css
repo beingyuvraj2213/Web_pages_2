@@ -1,0 +1,23 @@
+.btn-1{
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    transition: all .3s ease-in-out;
+    margin-top: 50px;
+    z-index: 5;
+    position: absolute;
+}
+.btn-1:hover{
+    background: rgb(255, 0, 0);
+    color: white;
+}
+.btn-1 a{
+    color: black;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}

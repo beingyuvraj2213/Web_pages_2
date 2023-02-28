@@ -1,0 +1,655 @@
+body{
+    scroll-behavior: smooth;
+    transition: all .3s ease-in;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.685), rgba(255, 255, 255, 0.089)) , url(../images/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+ 
+nav{
+    height: 70px;
+    width: 100%;
+    
+    background-color: rgba(236, 8, 8, 0);
+}
+nav .col-md-3 i{
+    font-size: 35px;
+    color: rgb(5, 5, 83);
+    padding: 15px 0px;
+
+}
+nav .col-md-3 h1{
+    font-size: 26px;
+    text-align: center;
+    color: rgb(3, 3, 14);
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 17px 10px;
+
+}
+nav .col-md-3 h1 span{
+    color: rgb(5, 5, 83);
+}
+nav .col-md-9 .ro{
+
+    text-align: right;
+}
+nav .col-md-9 .ro{
+    padding: 17px;
+}
+
+nav .col-md-9 .ro a{
+    
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(242, 241, 245);
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 10px;
+    transition: all .3s ease-in;
+    
+}
+nav .col-md-9 .ro a:hover{
+    background: white;
+    color: black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.61);
+}
+.col-md-5 h3{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 100px;
+    color: aliceblue;
+
+}
+.col-md-5 h2{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.col-md-5 p{
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 35px;
+    color: bisque;
+
+}
+
+header .col-md-7{
+    padding-top: 40px;
+}
+header .col-md-7 .card{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+}
+header .col-md-7 .card:hover{
+    box-shadow: 0px 0px 10px rgb(253, 253, 253);
+    transform: perspective(500px) translateY(-20px) rotateX(15deg);
+}
+header .col-md-7 .cd:hover{
+    transform: perspective(500px) translateX(-20px) rotateX(15deg);
+
+}
+header .col-md-7 .cdd:hover{
+    transform: perspective(500px) translateX(20px) rotateX(15deg);
+
+}
+header .col-md-7 .cdd{
+    height: 80%;
+    width: 260px;
+    margin-top: 45px;
+}
+
+
+
+header .col-md-7 .cd{
+    height: 80%;
+    width: 260px;
+    margin-top: 45px;
+}
+header .col-md-7 .card img{
+    
+    margin: 20px 40px;
+    margin-top: 60px;
+}
+header .col-md-7 h3{
+    font-size: 20px;
+    color: rgb(26, 2, 83);
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+.col-md-7 p{
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.col-md-7 h4{
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(2, 0, 100);
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+header svg{
+    height: 300px;
+    position: absolute;
+    margin-top: -100px;
+    z-index: 1;
+}
+
+
+ .sec-1{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    color: black;
+    margin: 0px;
+
+}
+.sec-1 h4{
+    color: black;
+    margin: 15px;
+    font-size: 40px;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sec-1 h2{
+
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 50px 25px;
+    text-align: center;
+     
+    
+
+}
+
+.sec-1 .col-md-4{
+    margin-bottom: 40px;
+}
+.sec-1 .col-md-4 .card{
+    background: rgba(240, 240, 240, 0.548);
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 85%;
+    transition: all .3s ease-in-out;
+    height: fit-content;
+    box-shadow: inset 0 0 0 0 rgb(214, 10, 44);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459); */
+}
+.inner-crd{
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+    border-radius: 25px;
+}
+.sec-1 .col-md-4 .card:hover{
+    background: rgb(255, 0, 0);
+    box-shadow: inset 0 400px 0 0 rgb(255, 255, 255);
+
+}
+.sec-1 .col-md-4 img{
+    height: 200px;
+    width: 160px;
+    
+    margin: 40px 70px;
+}
+
+.sec-1 .col-md-4 h5{
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.sec-1 .col-md-4 p{
+    color: rgb(8, 1, 1);
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0px 20px;
+}
+.sec-2{
+    height: 100vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+
+}
+.sec-2 .right{
+    padding-right: 100px;
+    text-align: left;
+}
+.sec-2 .left{
+    margin: 60px 0px;
+    position: relative;
+}
+.sec-2 .left .card{
+    width: 280px; 
+    /* height: 500px; */
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    right: 10%;
+    position: absolute;
+}
+.sec-2 .crd{
+    top: 30%;
+    width: 560px;
+    position: absolute;
+    height: 320px;
+    box-shadow: none;
+    background: blue;
+    transform: perspective(500px) rotateY(50deg);
+    border-radius: 0%;
+}
+.sec-2 svg{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 75px;
+}
+.sec-2 .c1-{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -25px;
+}
+
+.sec-2 .left .card img{
+    
+    margin: 20px 40px;
+    
+}
+.sec-2 .left .card h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+}
+.sec-2 .left .card p{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.sec-2 h5{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+   margin-top: 110px;
+
+}
+
+.sec-2 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    
+}.sec-2 h6{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    text-align: left;
+}
+.sec-2 h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+.sec-3{
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+    background: white;
+    
+}
+.sec-3 h5{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+}
+.sec-3 h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+}
+
+.sec-3 .col-md-3 h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: 70px;
+     
+}
+.sec-3 .col-md-3 h2:hover{
+    color: rgb(5, 5, 190);
+}
+.sec-4{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    position: relative;
+}
+.sec-4 h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    
+}
+.sec-4 .rro .card{
+    height: 350px;
+    width: 200px;
+    border-radius: none;
+    position: absolute;
+    transform: perspective(350px) rotateY(135deg);
+    margin-top: 80px;
+    margin-left: 1160px;
+    background: blue;
+
+
+}
+.sec-4 svg
+
+.sec-4 .rro{
+    margin-right: 0px;
+    margin-left: 100%;
+}
+.sec-4 p{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 30px;
+ }
+ .sec-4 .col-md-3 .card{
+    margin-top: 40px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(39, 38, 38, 0.295);
+
+ }
+ .sec-4 .col-md-3 img{
+    margin: 20px 40px;
+ }
+
+ .sec-4 .col-md-3 h2{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+ }
+ .sec-4 .col-md-3 h3{
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+ }
+
+ .sec-5{
+    height: 80vh;
+    width: 100%;
+    background: white;
+
+ }
+.sec-5 .col-md-9 h1{
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    
+}
+.sec-5 .col-md-9 p{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    padding-top: 20px;
+    
+}
+
+.sec-5 .col-md-4 img{
+    height: 380px;
+    width: 100%;
+    /* padding: 10px 20px; */
+    /* border-radius: 20px; */
+    color: black;
+}
+.sec-5 .col-md-8{
+    background: rgba(214, 208, 208, 0.644);
+}
+
+
+.sec-5 .col-md-8 a{
+    font-size: 35px;
+    padding: 0 5px;
+
+}
+.sec-5 .col-md-8 a:hover{
+    color: yellow;
+    transition: all .3s ease-in-out;
+}
+.sec-5 .col-md-8 p{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    padding-top: 20px;
+}
+.sec-5 .col-md-8 p2{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+}
+
+.sec-5 .col-md-8 h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    
+ }
+.sec-5 .col-md-8 p1{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    color: rgb(0, 0, 0);
+     
+}
+.sec-6{
+    height: 22vh;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.966)50%, rgb(110, 108, 108)0% );
+}
+.sec-6 .col-md-8 .col-md-2{
+    background: red;
+}
+.sec-6 .col-md-8 .card{
+    background: rgb(85, 85, 160);
+    border-radius: 20px;
+    border-color: none;
+    box-shadow: 5px 5px 10px rgba(70, 57, 57, 0.329);
+}
+.sec-6 .col-md-8 .col-md-6 h2{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    padding: 5px 15px;
+
+}
+.sec-6 .col-md-8 .col-md-6 p{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    color: black;
+    padding: 0 15px;
+
+
+}
+.hrt{
+    position: relative;
+}
+.sec-6 .col-md-8 .col-md-6 input{
+    font-size: 20px;
+    border-radius: 50px;
+    color: black;
+    background: rgb(255, 255, 255);
+    margin-top: 52px;
+    width: 90%;
+    /* width: 400px; */
+    position: absolute;
+}
+.sec-6 .col-md-8 .col-md-6 input::placeholder{
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.sec-6 .col-md-6 button{
+    height: 30px;
+    width: fit-content;
+    padding: 2px 30px ;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 200px;
+}
+.sec-6 .col-md-6 button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.sec-6 .col-md-3{
+    margin-top: 50px;
+}
+footer{
+    background: rgb(110, 108, 108);
+}
+footer .col-md-3 h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    padding: 5px 15px;
+}
+footer .col-md-3 h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    padding: 5px 15px;
+    letter-spacing: 15px;
+    padding-top: 35px;
+    color: blue;
+}
+footer .col-md-3 h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: blue;
+}
+.foot{
+    background: rgba(58, 54, 54, 0.363);
+}
+ 
+
+.foot h2{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    padding: 10px 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
